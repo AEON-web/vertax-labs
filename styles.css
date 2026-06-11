@@ -1,0 +1,71 @@
+.body{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-left: 50px;
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFAyzzCwMCsmV0TzX-jiXXLqWYtq-2QD3CGQ&s) no-repeat; 
+    background-size:cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position:center center;
+}
+.heading{
+    line-height: 1px;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.lion{
+    position:relative;
+    margin-left: 270px;
+    margin-top: -90px;
+}
+.lion img{
+    height: 700px;
+    margin-left: 200px;
+}
+.round {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    width: 60px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: -250px;
+}
+.profit{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+.compete{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top: -25px;
+    line-height: 39px;
+    font-size: 40px;
+}
+.high{
+    font-weight: normal;
+    margin-top: -10px;
+    font-family: serif;
+}
+.end{
+    font-size: xx-small;
+}
+@media(max-width:768px){
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+.lion img{
+    display: flex;
+    flex-direction: column;
+    margin-left: -250px;
+    width: 400px;
+    margin-top: 50px;
+}
+.round{
+    margin-top: -120px;
+}
+}
